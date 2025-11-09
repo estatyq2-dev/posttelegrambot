@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+
+# Database
+*.db
+*.sqlite3
+
+# Telegram sessions (will be created in container)
+.tg_session/
+
+# Logs
+logs/
+*.log
+
+# Media storage (will be in volume)
+media_storage/
+
+# Git
+.git/
+.gitignore
+
+# Documentation
+README.md
+*.md
+
+# Tests
+tests/
+.pytest_cache/
+.coverage
+
+# OS
+.DS_Store
+Thumbs.db
+
